@@ -11,6 +11,11 @@
   right: 40px;
   z-index: 5;
 
+  .empty-message{
+    font-size: 25px;
+    margin: 60px auto;
+  }
+
   .cart-items {
     height: 240px;
     display: flex;
@@ -20,7 +25,8 @@
     &::-webkit-scrollbar{
       width: 1vh;
       background-color: #c5c5c5;
-    } 
+    }
+   
   }
 
   button {
