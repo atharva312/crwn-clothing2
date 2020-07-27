@@ -15,10 +15,11 @@
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
 
     &::-webkit-scrollbar{
-      display: none;
+      width: 1vh;
+      background-color: #c5c5c5;
     } 
   }
 
